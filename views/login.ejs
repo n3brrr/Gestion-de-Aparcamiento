@@ -1,0 +1,30 @@
+<div class="row justify-content-center">
+    <div class="col-md-5">
+        <div class="card shadow-sm mt-5">
+            <div class="card-body p-4">
+                <h2 class="text-center mb-4">Iniciar Sesión</h2>
+
+                <% if (typeof error !== 'undefined') { %>
+                <div class="alert alert-danger"><%= error %></div>
+                <% } %>
+
+                <form action="/login" method="POST">
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Usuario</label>
+                        <input type="text" class="form-control" id="username" name="username" value="admin" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="password" name="password" value="admin" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 mb-2">Entrar</button>
+                    <a href="/" class="btn btn-outline-secondary w-100">Continuar como Invitado</a>
+                </form>
+
+                <div class="text-center mt-3 small text-muted">
+                    Usa las credenciales <strong>admin / admin</strong> para acceder.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
