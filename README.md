@@ -1,4 +1,4 @@
-# 🚗 Mi Aparcamiento PWA
+# 🚗 Mi Aparcamiento
 
 Una aplicación web progresiva moderna y eficiente diseñada para que nunca vuelvas a olvidar dónde aparcaste tu coche. Utiliza geolocalización en tiempo real y mapas interactivos para guardar y gestionar tus ubicaciones de aparcamiento.
 
